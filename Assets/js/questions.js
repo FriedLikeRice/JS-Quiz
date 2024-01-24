@@ -19,12 +19,12 @@ var questions = [
         ]
     },
     { 
-        question: "How to write an IF statement for executing some code if 'i' is NOT equal to 8?", 
+        question: "How to write an IF statement for executing some code if 'i' is NOT equal to 10?", 
         answers: [
-            { text: "if (i != 8)", correct: true },
-            { text: "if i =! 8", correct: false },
-            { text: "if (i <> 8)", correct: false },
-            { text: "if (i !=== 8)", correct: false }
+            { text: "if (i != 10)", correct: true },
+            { text: "if i =! 10", correct: false },
+            { text: "if (i <> 10)", correct: false },
+            { text: "if (i !=== 10)", correct: false }
         ]
     },
     { 
@@ -37,11 +37,11 @@ var questions = [
         ]
     },
     { 
-        question: "How do you round the number 102.456, to the nearest integer?",
+        question: "How do you round the number 76.12, to the nearest integer?",
         answers: [
-            { text: "Math.random(102.456)", correct: false },
-            { text: "Math.rnd(102.456)", correct: false },
-            { text: "round(102.456)", correct: false },
+            { text: "Math.random(76.12)", correct: false },
+            { text: "Math.rnd(76.12)", correct: false },
+            { text: "round(76.12)", correct: false },
             { text: "None of the above", correct: true }
         ]
     },
