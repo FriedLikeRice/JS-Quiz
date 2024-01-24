@@ -189,7 +189,6 @@ function showHighScores(initials) {
 
     var highScoreEl = document.getElementById("highscore");
     highScoreEl.innerHTML = "";
-    //console.log(scores)
     for (i = 0; i < scores.length; i++) {
         var div1 = document.createElement("div");
         div1.setAttribute("class", "name-div");
@@ -218,14 +217,7 @@ submitButton.addEventListener("click", function (event) {
 });
 
 
-// Restart or reload the page
+// Restart
 restartButton.addEventListener("click", function () {
     window.location.reload();
-});
-
-
-// Clear localStorage items 
-clearScoreButton.addEventListener("click", function () {
-    localStorage.clear();
-    document.getElementById("highscore").innerHTML = "";
 });
